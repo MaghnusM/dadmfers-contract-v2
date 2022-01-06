@@ -37,7 +37,7 @@ contract DadMfersV2 is ERC721, ERC721Enumerable, Ownable {
     string private _baseURIextended;
     address payable public immutable shareholderAddress;
 
-    uint256 public constant freeMintNumber = 3; // 1000
+    uint256 public constant freeMintNumber = 1000; // 1000
     uint256 public constant maxMintsPerTx = 20;
 
     uint256 public constant maxTokens = 5560;
