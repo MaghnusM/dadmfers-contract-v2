@@ -96,7 +96,7 @@ contract DadMfersV2 is ERC721, Ownable {
 
         require(_tokenSupply.current() + numberOfTokens < 5000, "Purchase would exceed max supply of tokens");
         
-        if (_tokenSupply.current() + numberOfTokens > 3) {
+        if (_tokenSupply.current() + numberOfTokens > 1000) {
             require((publicTokenPrice * numberOfTokens) <= msg.value, "Ether value sent is not correct");
         }
 
